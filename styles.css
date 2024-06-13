@@ -9,15 +9,20 @@
 body{
     font-family: 'Lobster', sans-serif;
     line-height: 1.6;
+    background-color: #4f9843;
+    
 }
 
+/* HEADER SECTION */
+
 header{
-    color: #f9faf8;
     display: flex;
+    color: #f9faf8;
     justify-content: space-between;
     align-items: center;
-    background-color: #4f9843;
     padding: 10px 50px;
+    border-bottom: 4px solid #3b7a32;
+    box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.2); 
 }
 
 header img{
@@ -36,4 +41,47 @@ header img{
     margin: 0 15px;
     text-decoration: none;
     color: #e5e7eb;
+}
+
+/* HERO SECTION */
+
+
+#heroSection{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#heroSection div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#heroSection img{
+    width: 50%;
+}
+
+#heroSection p{
+    margin-bottom: 30px;
+}
+
+button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: white;
+    align-self: end;
+    margin-right: 20px;
+    font-weight: 900;
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #3b7a32;
+}
+
+button:hover{
+    color: #4f9843;
+    background-color: #e5e7eb;
+    
+    
 }
