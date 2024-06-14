@@ -6,18 +6,21 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Lobster', sans-serif;
     line-height: 1.6;
     background-color: #4f9843;
-    
+    display: flex;
+    color: #f9faf8;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* HEADER SECTION */
 
 header{
+    width: 100%;
     display: flex;
-    color: #f9faf8;
     justify-content: space-between;
     align-items: center;
     padding: 10px 50px;
@@ -33,56 +36,115 @@ header img{
     display: flex;
     justify-content: end;
     list-style: none;
-    font-weight: 200;
-    font-size: 18px;
+}
+
+.navBar li{
+    margin: 0 15px;
 }
 
 .navBar li a{
-    margin: 0 15px;
     text-decoration: none;
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 /* HERO SECTION */
 
+main{
+    width: 100%;
+}
 
 #heroSection{
     display: flex;
-    justify-content: center;
-    padding: 50px;
+    justify-content: space-between;
+    padding: 50px 30px;
     border-bottom: 4px solid #3b7a32;
     box-shadow: 0px 4px 6px -2px rgba(255, 255, 255, 0.2);
 }
 
-#heroSection div{
+.heroText{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 50%;
+    font-size: 20px;
+    color:black
 }
 
 #heroSection img{
+
     width: 50%;
+    max-width: 500px;
 }
 
-#heroSection p{
+.heroText p{
     margin-bottom: 20px;
 }
 
-button{
+.heroButton{
     width: 100px;
     padding: 10px;
     border-radius: 5px;
-    border: white;
+    border: none;
     font-weight: 900;
     font-size: 18px;
     color: #e5e7eb;
     background-color: #3b7a32;
+    cursor: pointer;
     transition: 0.5s ease;
     transform-origin: center;
 }
 
-button:hover{
+.heroButton:hover{
     color: #4f9843;
     background-color: #e5e7eb;
     transform: scale(1.1);
+}
+
+/* INFORMATION SECTION */
+
+#infoSection{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 30px;
+    border-bottom: 4px solid #3b7a32;
+    box-shadow: 0px 4px 6px -2px rgba(255, 255, 255, 0.2);
+}
+
+#infoSection h2{
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
+}
+
+#infoSection .figuresContainer{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+    width: 100%;
+}
+
+.figuresContainer figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #3b7a32;
+    border: #e5e7eb 1px solid;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.2);
+
+}
+
+.figuresContainer img{
+    width: 200px;
+}
+
+.figuresContainer figcaption{
+    font-size: 30px;
 }
