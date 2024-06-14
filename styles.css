@@ -50,6 +50,8 @@ header img{
     display: flex;
     justify-content: center;
     padding: 50px;
+    border-bottom: 4px solid #3b7a32;
+    box-shadow: 0px 4px 6px -2px rgba(255, 255, 255, 0.2);
 }
 
 #heroSection div{
@@ -63,7 +65,7 @@ header img{
 }
 
 #heroSection p{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 button{
@@ -71,17 +73,16 @@ button{
     padding: 10px;
     border-radius: 5px;
     border: white;
-    align-self: end;
-    margin-right: 20px;
     font-weight: 900;
     font-size: 18px;
     color: #e5e7eb;
     background-color: #3b7a32;
+    transition: 0.5s ease;
+    transform-origin: center;
 }
 
 button:hover{
     color: #4f9843;
     background-color: #e5e7eb;
-    
-    
+    transform: scale(1.1);
 }
