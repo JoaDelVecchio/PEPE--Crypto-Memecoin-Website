@@ -189,6 +189,7 @@ button:hover{
     padding: 20px 60px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     color: #3b7a32;
     font-size: 18px;
     gap: 10px;
@@ -197,7 +198,7 @@ button:hover{
 
 #callToActionSection button{
     width: 150px;
-    height: 75px;
+    height: 60px;
 
 }
 
@@ -207,13 +208,23 @@ button:hover{
 
 }
 
-.ctaText{
+.ctaText {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: start; 
+    background-color: #3b7a32;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1;
 }
 
-.ctaText h3{
-    font-size: 30px;
-    align-self: start;
+.ctaText h3 {
+    font-size: 70px;
+    margin: 0; 
 }
 
+.ctaText p {
+    font-size: 25px;
+    margin: 0; 
+}
