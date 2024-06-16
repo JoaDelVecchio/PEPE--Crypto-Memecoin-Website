@@ -56,8 +56,8 @@ main{
 
 #heroSection{
     display: flex;
-    justify-content: space-between;
-    padding: 50px 30px;
+    justify-content: space-around;
+    padding: 50px 0px;
     border-bottom: 4px solid #3b7a32;
     box-shadow: 0px 4px 6px -2px rgba(255, 255, 255, 0.2);
 }
@@ -81,7 +81,7 @@ main{
     margin-bottom: 20px;
 }
 
-.heroButton{
+button{
     width: 100px;
     padding: 10px;
     border-radius: 5px;
@@ -95,7 +95,7 @@ main{
     transform-origin: center;
 }
 
-.heroButton:hover{
+button:hover{
     color: #4f9843;
     background-color: #e5e7eb;
     transform: scale(1.1);
@@ -108,7 +108,7 @@ main{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 50px 30px;
+    padding: 50px 0px;
     border-bottom: 4px solid #3b7a32;
     box-shadow: 0px 4px 6px -2px rgba(255, 255, 255, 0.2);
 }
@@ -120,7 +120,7 @@ main{
 
 #howToBuySection .figuresContainer{
     display: flex;
-    justify-content:space-between ;
+    justify-content:space-around ;
     align-items: center;
     padding: 20px 0;
     gap: 20px;
@@ -157,16 +157,63 @@ main{
     padding: 50px 30px;
     border-bottom: 4px solid #3b7a32;
     box-shadow: 0px 4px 6px -2px rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #quoteSection div{
-    background-color: gainsboro;
     display: flex;
     flex-direction: column;
     gap: 10px;
     max-width: 710px;
+    text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
 }
 
 #quoteSection div p{
     align-self:end ;
 }
+
+/* callToActionSection*/
+
+#callToActionSection{
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#callToActionSection div{
+    background-color: #e5e7eb;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    color: #3b7a32;
+    font-size: 18px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+#callToActionSection button{
+    width: 150px;
+    height: 75px;
+
+}
+
+#callToActionSection button:hover{
+    background-color: #4f9843;
+    color: #e5e7eb;
+
+}
+
+.ctaText{
+    display: flex;
+    flex-direction: column;
+}
+
+.ctaText h3{
+    font-size: 30px;
+    align-self: start;
+}
+
