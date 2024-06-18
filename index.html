@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Simple Website</title>
 </head>
 <body>
     <header>
             <img src="./images/pepeLogo.webp" alt="pepeLogo">
             <ul class="navBar">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">How to buy</a></li>
+                <li><a href="#heroSection">Home</a></li>
+                <li><a href="#howToBuySection">How to buy</a></li>
+                <li><a href="#quoteSection">About</a></li>
             </ul>
     </header>
     <main>
-        <div id="heroSection">
+        <div id="heroSection" >
             <div class="heroText">
                 <h1>They call me $pepe,</h1>
                 <p>The frog of ETH. The biggest memecoin of 2025.<br>Don't act like you don't know me. </p>
-                <button class="heroButton">Buy now</button>
+                <a href="https://app.uniswap.org"><button class="heroButton">Buy now</button></a>
             </div>
-            <img src="./images/pepeHeroSection.webp" alt="Pepe laughting at other memecoins">
+            <img src="./images/pepemaga.webp" alt="Pepe laughting at other memecoins">
         </div>
         
         <div id="howToBuySection">
@@ -45,7 +46,7 @@
                 </figure>
                 
                 <figure>
-                    <img src="./images/pepemaga.webp" alt="Descriptive text for the image">
+                    <img src="./images/pepeHeroSection.webp" alt="Descriptive text for the image">
                     <figcaption>Swap eth for $pepe</figcaption>
                 </figure>
 
@@ -65,13 +66,16 @@
                     <h3>vibe and hold</h3>
                     <p>Zero taxes</p>
                 </div>
-                <button>Buy $pepe</button>
+                <a href="https://app.uniswap.org"><button>Buy $pepe</button></a> 
             </div>
         </div>
     </main>
 
         <footer>
-            <p>Joaquin Del Vecchio 2024</p>
+            <p>© 2024 by Pepe. All rights reserved!</p>
+            <a href="https://x.com/pepe" target="_blank">
+                <img src="./images/X_icon.svg.png" alt="X_icon">
+            </a>
         </footer>
 </body>
 </html>
