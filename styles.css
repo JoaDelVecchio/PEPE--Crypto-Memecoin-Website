@@ -181,6 +181,7 @@ button:hover{
 #quoteSection{
     height: 42.5vh;
     width: 100%;
+    scroll-margin-top: 75px;
     padding: 50px 30px;
     border-bottom: 4px solid #3b7a32;
     box-shadow: 0px 4px 6px -2px rgba(255, 255, 255, 0.2);
@@ -190,7 +191,6 @@ button:hover{
     font-family: 'Poppins',sans-serif;
     background-image: url(./images/pepeLogo.png);
     background-size:300px;
-
     background-position: bottom;
 }
 
@@ -280,6 +280,5 @@ footer {
 footer img {
     width: 24px;
     height: 24px; 
-    padding:0px;
-    margin: 0px;
+    vertical-align: middle;
 }
